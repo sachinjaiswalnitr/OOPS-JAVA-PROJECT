@@ -14,7 +14,7 @@ class Product {
 
     @Override
     public String toString() {
-        return "Product{name='" + name + '\'' + ", quantity=" + quantity + '}';
+        return "Product{name='" + name + '\'' + ", quantity===" + quantity + '}';
     }
 }
 
