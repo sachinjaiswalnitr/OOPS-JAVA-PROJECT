@@ -53,7 +53,7 @@ public class InventoryManagementSystem {
             System.out.println("Error saving inventory: " + e.getMessage());
         }
     }
-
+//
     public void addProduct(String name, int quantity) {
         inventory.put(name, inventory.getOrDefault(name, new Product(name, 0)));
         inventory.get(name).quantity += quantity;
